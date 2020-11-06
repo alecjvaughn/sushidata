@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 import sys
-
 
 class sushiRoll:
 
@@ -9,7 +9,7 @@ class sushiRoll:
         self.name = name
         self.ingredients = ingredients
 
-    def string(self):
+    def __str__(self):
         return f"{self.name}: {self.ingredients}"
 
 url = 'https://www.thrillist.com/eat/nation/fattest-sushi-rolls-sushi-rolls-by-calorie'
@@ -30,13 +30,13 @@ for div in divs:
     mySushi = sushiRoll(roll.text, ingredients.text.split(","))
     for ingredient in ingredients.text.split(","):
         if ingredient not in sushiTable:
-            sushiList = [sushiRoll.string]
+            sushiList = [str(mySushi.name)]
             sushiTable[ingredient] = sushiList
         else:
-            sushiTable[ingredient].append(sushiRoll.string)
+            sushiTable[ingredient].append(str(mySushi.name))
 myFile = open('mySushiData.txt', 'w')
 for key in sushiTable:
-    myFile.write(f"{key}: ${sushiTable[key]}\n")
+    myFile.writelines(f"{key}: {sushiTable[key]}\n\n")
 print(sys.exit)
 
 

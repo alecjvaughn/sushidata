@@ -1,26 +1,51 @@
-Cucumber: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- fish cake/imitation crab: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- beef: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- carrot: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- tuna: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- salmon: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- avocado: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- fresh carrot: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- scallion: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- asparagus: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- cream cheese: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
-Deep-fried soft-shell crab: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- cucumber: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- radish sprout: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- masago roe: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- pickled carrot: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
-Cream cheese: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- sesame seeds: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
-Fish cake/imitation crab: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
-Shrimp tempura: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- tempura flakes: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- eel sauce: $[<function sushiRoll.string at 0x7fef33b5a1e0>, <function sushiRoll.string at 0x7fef33b5a1e0>]
- shrimp: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
+Cucumber: ['9. Surf and Turf Roll - 293.3\xa0cal', '8. Vegetable Roll - 358 cal', '7. Caterpillar Roll - 373.5 cal', '1. Dragon Roll - 454.6 cal']
+
+ fish cake/imitation crab: ['9. Surf and Turf Roll - 293.3\xa0cal', '7. Caterpillar Roll - 373.5 cal']
+
+ beef: ['9. Surf and Turf Roll - 293.3\xa0cal']
+
+ carrot: ['9. Surf and Turf Roll - 293.3\xa0cal']
+
+ tuna: ['9. Surf and Turf Roll - 293.3\xa0cal', '2. Rainbow Roll - 424 cal']
+
+ salmon: ['9. Surf and Turf Roll - 293.3\xa0cal', '5. Philly Roll - 388.8 cal', '2. Rainbow Roll - 424 cal']
+
+ avocado: ['9. Surf and Turf Roll - 293.3\xa0cal', '8. Vegetable Roll - 358 cal', '7. Caterpillar Roll - 373.5 cal', '6. Spider Roll - 376.6\xa0cal', '5. Philly Roll - 388.8 cal', '4. California Roll - 394.6 cal', '3. Shrimp Tempura Roll - 417.6 cal', '2. Rainbow Roll - 424 cal', '2. Rainbow Roll - 424 cal', '1. Dragon Roll - 454.6 cal']
+
+ fresh carrot: ['8. Vegetable Roll - 358 cal']
+
+ scallion: ['8. Vegetable Roll - 358 cal']
+
+ asparagus: ['8. Vegetable Roll - 358 cal']
+
+ cream cheese: ['8. Vegetable Roll - 358 cal']
+
+Deep-fried soft-shell crab: ['6. Spider Roll - 376.6\xa0cal']
+
+ cucumber: ['6. Spider Roll - 376.6\xa0cal', '4. California Roll - 394.6 cal', '2. Rainbow Roll - 424 cal']
+
+ radish sprout: ['6. Spider Roll - 376.6\xa0cal']
+
+ masago roe: ['6. Spider Roll - 376.6\xa0cal']
+
+ pickled carrot: ['6. Spider Roll - 376.6\xa0cal']
+
+Cream cheese: ['5. Philly Roll - 388.8 cal']
+
+ sesame seeds: ['5. Philly Roll - 388.8 cal']
+
+Fish cake/imitation crab: ['4. California Roll - 394.6 cal', '2. Rainbow Roll - 424 cal']
+
+Shrimp tempura: ['3. Shrimp Tempura Roll - 417.6 cal']
+
+ tempura flakes: ['3. Shrimp Tempura Roll - 417.6 cal']
+
+ eel sauce: ['3. Shrimp Tempura Roll - 417.6 cal', '1. Dragon Roll - 454.6 cal']
+
+ shrimp: ['2. Rainbow Roll - 424 cal']
+
  yellowtail
-Eating a Rainbow Roll contributes mightily to the rolls on you.: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
- eel: $[<function sushiRoll.string at 0x7fef33b5a1e0>]
+Eating a Rainbow Roll contributes mightily to the rolls on you.: ['2. Rainbow Roll - 424 cal']
+
+ eel: ['1. Dragon Roll - 454.6 cal']
+
