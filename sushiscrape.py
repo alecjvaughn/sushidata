@@ -6,8 +6,11 @@ import sys
 class sushiRoll:
 
     def __init__(self, name, ingredients):
-        self.name = name
-        self.ingredients = ingredients
+        self.name = re.search('[a-zA-Z]+[^ - \\xa0][^cal]', name)
+        self.name = name.strip()
+        self.ingredients = ingredients.title()
+        self.ingredients = ingredients.strip()
+        self.ingredients = ingredients.split(",")
 
     def __str__(self):
         return f"{self.name}: {self.ingredients}"
@@ -27,8 +30,8 @@ for div in divs:
     ingredients = div.find('em')
     if None in (roll, ingredients):
         continue
-    mySushi = sushiRoll(roll.text, ingredients.text.split(","))
-    for ingredient in ingredients.text.split(","):
+    mySushi = sushiRoll(roll.text, ingredients.text)
+    for ingredient in mySushi.ingredients:
         if ingredient not in sushiTable:
             sushiList = [str(mySushi.name)]
             sushiTable[ingredient] = sushiList
